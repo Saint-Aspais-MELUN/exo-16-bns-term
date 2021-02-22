@@ -1,61 +1,25 @@
-EXERCICE 1 (4 points) 
+# Sujet 16
 
- 
- 
- 
-Écrire  une  fonction  moyenne  qui  prend  en  paramètre  un  tableau  non  vide  de  nombres 
-flottants  et  qui  renvoie  la  moyenne  des  valeurs  du  tableau.  Les  tableaux  seront 
-représentés sous forme de liste Python. 
+Ce sujet comporte deux exercices : voir le PDF ci-joint
 
-EXERCICE 2 (4 points) 
+Pour le premier exercice, vous devez écrire une fonction `moyenne` 
 
-On considère la fonction dec_to_bin ci-dessous qui prend en paramètre un entier positif 
-a  en écriture décimale et qui renvoie son écriture binaire sous la forme d'une chaine de 
-caractères.  
 
-Exemples : 
+Pour le deuxième, il s'agit de compléter le code fourni.
 
->>> moyenne([1.0]) 
-1.0 
- 
->>> moyenne([1.0, 2.0, 4.0]) 
-2.3333333333333335 
- 
- 
- 
- 
+- Les fichiers à compléter sont dans le dossier `exercices`.
 
-def dec_to_bin(a): 
+- Le dossier `tests` correspond aux tests fournis par l'énoncé.
+Il ne faut surtout pas modifier ces fichiers sous peine d'annulation de l'épreuve.
 
-    bin_a = ... 
+- Si vous travaillez avec repl.it, modifier le fichier .replit :  
+<pre><code style="background-color:black;color:white;width:100%;font-size: large;">
+# Si vous voulez exécuter l'exercice 1 : Enlever le # de la ligne ci-dessous
+# run = "python3 exercices/exercice1.py"
 
-    a = a//2 
+# Si vous voulez exécuter l'exercice 2 : Enlever le # de la ligne ci-dessous
+# run = "python3 exercices/exercice2.py"
 
-    while a ... : 
+language = "python3"
+</code></pre>
 
-        bin_a = ... + bin_a 
-
-        a = ... 
-
-    return bin_a 
-
-Compléter la fonction dec_to_bin. 
-
-Exemples :  
-
->>> dec_to_bin(83) 
-'1010011' 
->>> dec_to_bin(127) 
-'1111111' 
-
- 
-
- 
-
- 
-
- 
-
- 2 / 2 
-
-# sujet-16-bns
